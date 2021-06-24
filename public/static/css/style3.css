@@ -1,0 +1,94 @@
+
+/*slide*/
+
+
+
+.slide .slide-content {
+  
+    position: relative;
+    overflow: hidden;
+}
+
+.slide .slide-content .mask {
+    background-color: rgba(0, 0, 0, 0.10);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slide .slide-content .mask2 {
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slide .slide-content img {
+    width: 100%;
+  /*  height: 100%; */
+    object-fit: cover;
+}
+
+.slide .slide-content .button {
+    background-color: #e82954;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.slide .slide-content .caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    padding: 15px;
+	background: rgba(0, 0, 0, 0.3);
+	    color: rgb(255, 255, 255);
+	    font-family: 微软雅黑;
+	    z-index: 999;
+	        padding: 4% 1.2%;
+		
+		
+}
+
+.slide .first-slide .caption {
+    text-align: center;
+}
+
+.slide .slide-content .caption h2 {
+	font-size: 1.2rem;
+padding-bottom: 10px;
+}
+
+.slide .slide-content .caption h2,
+.slide .slide-content .caption p {
+	text-align: left;
+    color: #fff;
+}
+
+.slide .slide-content .caption .date {
+    background-color: transparent;
+}
+
+.slide .owl-theme .owl-nav.disabled + .owl-dots {
+    position: relative;
+    top: -35px;
+    margin-bottom: -36px;
+}
+
+.slide .owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.slide .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #e82954;
+}
+
