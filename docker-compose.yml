@@ -6,9 +6,9 @@ services:
       context: ./
       dockerfile: Dockerfile7public
     tty: true
-    container_name: my_laravel_admin
+    container_name: zuomm
     ports:
-      - "9999:80"
+      - "6666:80"
     volumes:
       - ./:/var/www/html
       - ./php.ini:/usr/local/etc/php/conf.d/php.ini
