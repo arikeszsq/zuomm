@@ -2,10 +2,10 @@
 <html class="js cssanimations csstransitions video audio">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel='https://api.w.org/' href='https://www.hypontech.com/wp-json/' />
+    <link rel='https://api.w.org/' href='https://www.hypontech.com/wp-json/'/>
     <title>Energizing Future - Hypontech</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="static/css/kgu.reset.css">
@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="static/css/kgu.css">
     <link rel="stylesheet" href="static/css/less.css">
     <link rel="stylesheet" href="static/css/iconfont.css">
-    <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 
-    <link rel="stylesheet" href="static/css/libraries.css" />
-    <link rel="stylesheet" href="static/css/style2.css" />
+    <link rel="stylesheet" href="static/css/libraries.css"/>
+    <link rel="stylesheet" href="static/css/style2.css"/>
 
 
     <link rel="stylesheet" href="static/css/owl.carousel.min.css">
@@ -36,8 +36,7 @@
 </head>
 
 <body>
-@include('web.common.headerleader',['title'=>'首页'])
-
+@include('web.common.headerleader',['title'=>'download'])
 
 <section id="slider" class="slider slider-layout1">
     <div class="carousel owl-carousel carousel-arrows carousel-dots carousel-dots-light" data-slide="1"
@@ -90,7 +89,8 @@
         </a>
         <a href="https://www.hypontech.com/hpt_3_11k_residential/2020/">
             <div class="slide-item align-v-h text-center bg-overlay">
-                <div class="bg-img"><img src="static/picture/hpt-art_explosion-dia-e1604473424507.jpg" alt="slide img"></div>
+                <div class="bg-img"><img src="static/picture/hpt-art_explosion-dia-e1604473424507.jpg" alt="slide img">
+                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12">
@@ -140,8 +140,13 @@
 <!-- 概念简介 -->
 <div style="clear: both;"></div>
 <div class="yenw">
-    <p>Hi, welcome to Hypontech.</p><p><br><br />
-        We create a smart solar solution, bringing real progress to a renewable world - We are energizing the future for everyone, to everywhere they go.</p><p>HYPONTECH is driving the world forward with an exciting portfolio of PV string and storage inverters, as well as smart energy management solutions. Our products have been delivered and tested in environments over the globe, in 50 more countries of 6 continents.</p></div>
+    <p>Hi, welcome to Hypontech.</p>
+    <p><br><br/>
+        We create a smart solar solution, bringing real progress to a renewable world - We are energizing the future for
+        everyone, to everywhere they go.</p>
+    <p>HYPONTECH is driving the world forward with an exciting portfolio of PV string and storage inverters, as well as
+        smart energy management solutions. Our products have been delivered and tested in environments over the globe,
+        in 50 more countries of 6 continents.</p></div>
 
 <!-- 案例与产品 -->
 <div class="section-title">
@@ -155,7 +160,9 @@
                 <img src="static/picture/solution1.png">
                 <div class="txt" style="overflow: hidden; height: 110px;">
                     <h3 style="padding-top: 8%;">Residential Solutions</h3>
-                    <p>A full portfolio with Single and Three Phase solar inverters, including grid-tied and storage Options. Residential solutions integrate a smart grid with optimal consumption, saving up energy cost with clean and renewable power.</p>
+                    <p>A full portfolio with Single and Three Phase solar inverters, including grid-tied and storage
+                        Options. Residential solutions integrate a smart grid with optimal consumption, saving up energy
+                        cost with clean and renewable power.</p>
                 </div>
             </li>
         </a>
@@ -164,7 +171,8 @@
                 <img src="static/picture/water-3191218-e1593496468616.jpg">
                 <div class="txt" style="overflow: hidden; height: 110px;">
                     <h3 style="padding-top: 8%;">Commercial Solutions</h3>
-                    <p>A clean, renewable world is in dire need for industries and businesses that adapt and stay open to change. Power your commercial buildings with clean solar energy by utilizing rooftops.</p>
+                    <p>A clean, renewable world is in dire need for industries and businesses that adapt and stay open
+                        to change. Power your commercial buildings with clean solar energy by utilizing rooftops.</p>
                 </div>
             </li>
         </a>
@@ -173,7 +181,8 @@
                 <img src="static/picture/touch-screen-1023966-e1593496314710.jpg">
                 <div class="txt" style="overflow: hidden; height: 110px;">
                     <h3 style="padding-top: 8%;">Monitoring Solutions</h3>
-                    <p>Look around and you find everyone with a smart device. A quality solution should be accessible everywhere you go. Monitor your solar systems and connect with clean energy fans around you.
+                    <p>Look around and you find everyone with a smart device. A quality solution should be accessible
+                        everywhere you go. Monitor your solar systems and connect with clean energy fans around you.
                     </p>
                 </div>
             </li>
@@ -227,15 +236,15 @@
 </div>
 
 <script type="text/javascript">
-    $(".con ul li").hover(function(){
-        $(this).find(".txt").stop().animate({height:"100%"},400);
-        $(this).find(".txt h3").stop().animate({paddingTop:"200px"},400);
-        $(this).find(".txt p").stop().animate({paddingTop:"0px"},400);
+    $(".con ul li").hover(function () {
+        $(this).find(".txt").stop().animate({height: "100%"}, 400);
+        $(this).find(".txt h3").stop().animate({paddingTop: "200px"}, 400);
+        $(this).find(".txt p").stop().animate({paddingTop: "0px"}, 400);
 
-    },function(){
-        $(this).find(".txt").stop().animate({height:"110px"},400);
-        $(this).find(".txt h3").stop().animate({paddingTop:"30px"},400);
-        $(this).find(".txt p").stop().animate({paddingTop:"100px"},400);
+    }, function () {
+        $(this).find(".txt").stop().animate({height: "110px"}, 400);
+        $(this).find(".txt h3").stop().animate({paddingTop: "30px"}, 400);
+        $(this).find(".txt p").stop().animate({paddingTop: "100px"}, 400);
     })
 </script>
 
@@ -265,12 +274,12 @@
     </ul>
 </div>
 <script type="text/javascript">
-    $(".con ul li").hover(function(){
-        $(this).find(".lates-baner").stop().animate({height:"100%"},400);
-        $(this).find(".lates-baner h3").stop().animate({paddingTop:"240px"},400);
-    },function(){
-        $(this).find(".lates-baner").stop().animate({height:"130px"},400);
-        $(this).find(".lates-baner h3").stop().animate({paddingTop:"30px"},400);
+    $(".con ul li").hover(function () {
+        $(this).find(".lates-baner").stop().animate({height: "100%"}, 400);
+        $(this).find(".lates-baner h3").stop().animate({paddingTop: "240px"}, 400);
+    }, function () {
+        $(this).find(".lates-baner").stop().animate({height: "130px"}, 400);
+        $(this).find(".lates-baner h3").stop().animate({paddingTop: "30px"}, 400);
     })
 </script>
 <div style="clear: both;"></div>
@@ -285,7 +294,9 @@
             <a href="https://www.hypontech.com/new_hpt_15-25kw/2020/">
                 <div class="caption">
                     <h2>Hypontech expands HPT 3-Phase series to higher power coverage</h2>
-                    <p>Power generation doubled with merely any increase to size. The upgraded HPT series are the world’s highest power density 3-Phase inverter, offering an adaptive, smart, and reliable solution to residential and commercial systems. </p>
+                    <p>Power generation doubled with merely any increase to size. The upgraded HPT series are the
+                        world’s highest power density 3-Phase inverter, offering an adaptive, smart, and reliable
+                        solution to residential and commercial systems. </p>
                 </div>
             </a>
         </div>
@@ -295,23 +306,30 @@
             <a href="https://www.hypontech.com/hypontech-one-of-the-1st-inverter-companies-to-pass-aemos-vdrt/2020/">
                 <div class="caption">
                     <h2>Hypontech &#8211; One of the 1st Inverter Companies to Pass AEMO&#8217;s VDRT</h2>
-                    <p>Hypontech's HPS and HPT just passed AEMO's new mandatory test procedure, recently released in South Australia</p>
+                    <p>Hypontech's HPS and HPT just passed AEMO's new mandatory test procedure, recently released in
+                        South Australia</p>
                 </div>
             </a>
         </div>
         <div class="slide-content first-slide">
             <div class="mask2"></div>
-            <img src="https://www.hypontech.com/wp-content/uploads/2020/08/微信图片_202008090904322-e1597076278810-1404x500.jpg;?>" alt="">
+            <img
+                src="https://www.hypontech.com/wp-content/uploads/2020/08/微信图片_202008090904322-e1597076278810-1404x500.jpg;?>"
+                alt="">
             <a href="https://www.hypontech.com/hypontech-at-the-snec-pv-expo-2020-inverters-of-distinction/2020/">
                 <div class="caption">
                     <h2>Hypontech at the SNEC PV EXPO 2020: Inverters of Distinction</h2>
-                    <p>Hypontech has went through 3 unbelievable days at 14th SNEC PV EXPO 2020, demonstrating our latest grid-tied and storage inverter portfolio for residential and commercial solar systems.</p>
+                    <p>Hypontech has went through 3 unbelievable days at 14th SNEC PV EXPO 2020, demonstrating our
+                        latest grid-tied and storage inverter portfolio for residential and commercial solar
+                        systems.</p>
                 </div>
             </a>
         </div>
         <div class="slide-content first-slide">
             <div class="mask2"></div>
-            <img src="https://www.hypontech.com/wp-content/uploads/2020/06/_20200713171345-1-e1594891729363-1404x500.jpg;?>" alt="">
+            <img
+                src="https://www.hypontech.com/wp-content/uploads/2020/06/_20200713171345-1-e1594891729363-1404x500.jpg;?>"
+                alt="">
             <a href="https://www.hypontech.com/zuckerberg-says-facebook-will-review-content-policies-after-employee-outrage/2020/">
                 <div class="caption">
                     <h2>SEE YOU AT SNEC PV POWER EXPO</h2>
@@ -339,7 +357,7 @@
         <li>
             <a href="https://www.hypontech.com/case/jakarta/">
                 <img src="static/picture/微信图片_20180509125703-456x332.jpg">
-                <div class="case-a" >
+                <div class="case-a">
                     <h3 style="padding-top: 0px;">Jakarta</h3>
                     <p>
                         <i><img src="static/picture/index-botton_03.jpg">881</i>
@@ -350,7 +368,7 @@
         <li>
             <a href="https://www.hypontech.com/case/test-1/">
                 <img src="static/picture/2b50e0507457ef5c2e19fafac5ecc01-456x332.jpg">
-                <div class="case-a" >
+                <div class="case-a">
                     <h3 style="padding-top: 0px;">Sydney, Australia</h3>
                     <p>
                         <i><img src="static/picture/index-botton_03.jpg">1016</i>
@@ -361,7 +379,7 @@
         <li>
             <a href="https://www.hypontech.com/case/london-great-britain/">
                 <img src="static/picture/commercial-3397211-456x332.jpg">
-                <div class="case-a" >
+                <div class="case-a">
                     <h3 style="padding-top: 0px;">London, Great Britain</h3>
                     <p>
                         <i><img src="static/picture/index-botton_03.jpg">1086</i>
@@ -372,5 +390,5 @@
     </ul>
 </div>
 
-@include('web.common.footer')
 
+@include('web.common.footer')
